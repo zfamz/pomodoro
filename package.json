@@ -8,8 +8,9 @@
     "build": "vue-tsc --noEmit && vite build",
     "preview": "vite preview",
     "tauri": "tauri",
-    "dev:web": "tauri dev",
+    "dev:win": "tauri dev",
     "dev:and": "tauri android dev",
+    "build:win": "tauri build --target x86_64-pc-windows-msvc",
     "build:and": "tauri android build --target aarch64"
   },
   "dependencies": {
